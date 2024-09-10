@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-image: url('resources/background\ banner.jpg');
+    color: rgb(255, 254, 254);
+    height: 150px;
+}
+
+.banner-info{
+    margin: 0px 0px 0px 25px;
+
+}
+
+.banner-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin : 10px 0px 0px 5px;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 0px 0px 10px;
+}
+
+main div{
+    padding: 2%;
+}
+
+main div h3{
+    margin-top: 2%;
+}
+
+main div p{
+    margin-top: 2%;
+}
+
+main video{
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: rgb(50, 50, 50);
+    color: rgb(223, 216, 216);
+    padding: 1%;
+    text-align: center;
+    margin-top: 10px;
+}
